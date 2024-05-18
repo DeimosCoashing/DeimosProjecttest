@@ -1,0 +1,138 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section */
+#hero {
+    background-color: #f2f2f2;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 36px;
+    color: #333; /* Dark text color */
+}
+
+#hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #666; /* Slightly lighter text color */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.btn:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+/* Sections */
+section {
+    padding: 80px 0;
+    background-color: #fff; /* White background for sections */
+}
+
+section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* For the body background */
+body {
+    background-image: url('Powerlifting.avif');
+    background-size: cover;
+   
+}
+
+/* For specific sections */
+#hero {
+    background-image: url('Powerlifting01.jpg');
+    background-size: cover;
+    
+}
+
+/* Repeat for other sections if needed */
+
