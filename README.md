@@ -56,3 +56,4 @@ For any inquiries or support, please contact:
 ## Acknowledgments
 - Thanks to all the contributors who have helped improve this project.
 - Special thanks to our coaches and athletes for their feedback and support.
+git add .
